@@ -1,4 +1,27 @@
-h1{
-    text-align: center;
-    color: blue;
+.div1{
+    width: 100px;
+    height: 100px;
+    background: red;
+}
+
+.div2{
+    width: 100px;
+    height: 100px;
+    background: yellow;
+}
+
+.div3{
+    width: 100px;
+    height: 100px;
+    background: blue;
+}
+
+.divmaman{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: start;
+    align-items: end;
+    height: 100vh;
 }
